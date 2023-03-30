@@ -1,0 +1,68 @@
+/* footer styles */
+.footer {
+    background-color: #08f3f3;
+    color: #a49b9b;
+    font-family: "ubuntu condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer>.logo-footer img {
+    margin-top: 20px;
+    width: 150px;
+    height: 100%;
+    filter: brightness(50%);
+    opacity: 0.5;
+}
+
+.footer>.footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #e616bc;
+}
+
+.footer>.footer-phone-hours>.hours {
+    font-size: 2em;
+    color: #ce35af;
+    text-transform: uppercase;
+}
+
+.footer> .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 600px;
+    color: #131212;
+    font-size: 1em;
+    color: #131212;
+    
+}
+
+.footer>.social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer>.social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #131212;
+    transition: 0.5s;
+}
+
+.footer>.social-media-icons-wrapper a:hover {
+    color: #e616bc;
+}
+
+.footer>.copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
